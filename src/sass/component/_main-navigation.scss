@@ -1,0 +1,21 @@
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-list li {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: $color-additional;
+  margin: 15px;
+  padding-bottom: 5px;
+}
+
+.nav-list a:hover {
+  border-bottom: 2px solid $color-primary;
+}
