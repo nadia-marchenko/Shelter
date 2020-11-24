@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.content-wrapper {
+  width: 1340px;
+  margin: 0 auto;
+  padding: 66px 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-title {
+  color: #F1CDB3;
+  font-size: 3.8rem;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.logo-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 1.3rem;
+  margin: 11px 0 0 7px;
+  letter-spacing: 2px;
+}
+
+.start-screen {
+  background: url(../assets/images/start-screen-gradient-background.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
