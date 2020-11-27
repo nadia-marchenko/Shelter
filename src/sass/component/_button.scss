@@ -1,0 +1,33 @@
+.btn {
+  color: #000000;
+  border-radius: 30px;
+  letter-spacing: 0.7px;
+  padding: 15.5px 43px;
+  font-size: 1.8rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.primary-btn {
+  background-color: $color-primary;
+}
+
+.primary-btn:hover {
+  background-color: $color-primary-light;
+}
+
+.secondary-btn:hover {
+  background-color: $color-primary-light;
+  border-color: $color-primary-light;
+}
+
+.secondary-btn {
+  border: 2px solid $color-primary;
+  padding: 13.5px 42px;
+}
+
+.btn-to-all {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 115px;
+}

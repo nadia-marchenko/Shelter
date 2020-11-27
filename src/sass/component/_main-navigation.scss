@@ -2,20 +2,23 @@
   display: flex;
   list-style-type: none;
   align-items: center;
+  position: relative;
+  right: -1.4vw;
+  margin-top: 0px;
 }
 
 .nav-list li {
   font-size: 1.5rem;
-  letter-spacing: 1px;
 }
 
 .nav-list a {
   text-decoration: none;
   color: $color-additional;
-  margin: 15px;
+  margin: 18px;
   padding-bottom: 5px;
 }
 
-.nav-list a:hover {
+.nav-list a:hover,
+.nav-list li:first-child a {
   border-bottom: 2px solid $color-primary;
 }

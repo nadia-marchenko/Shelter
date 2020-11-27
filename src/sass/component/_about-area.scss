@@ -1,0 +1,26 @@
+.about-area {
+  height: 34.3vw;
+  padding-bottom: 30px;
+}
+
+.about-area img {
+  grid-row: 1;
+  position: relative;
+  left: 173px;
+  top: 14px;
+}
+
+.about-content p {
+  width: 70%;
+  margin-top: -3px;
+  margin-bottom: 27px;
+  line-height: 1.6;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .about-area {
+    display: grid;
+    grid-template-columns: 49.7% 1fr;
+  }
+}
