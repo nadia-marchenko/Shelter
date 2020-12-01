@@ -259,4 +259,66 @@ header {
   margin-right: auto;
 }
 
+.donation-area {
+  height: 32.3vw;
+  background-color: #F6F6F6;
+}
+
+.donation-area img {
+  grid-row: 1;
+  position: relative;
+  left: 143px;
+  top: 37px;
+}
+
+.donation-text h2 {
+  width: 61%;
+}
+
+.donation-text h2 + p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  letter-spacing: 0.9px;
+  margin-top: -11px;
+}
+
+.donation-card-data {
+  background-color: #F1CDB3;
+  border-radius: 9px;
+  width: 319px;
+  padding: 7px 15px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.donation-icon {
+  display: inline-block;
+  background: url(../assets/images/credit-card.svg);
+  width: 30px;
+  height: 23px;
+}
+
+.card-number {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2rem;
+  padding-left: 14px;
+  letter-spacing: 1.2px;
+}
+
+.donation-text > p:last-child {
+  width: 69%;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #B2B2B2;
+}
+
+@media screen and (min-width: 768px) {
+  .donation-content {
+    display: grid;
+    grid-template-columns: 56.5% 1fr;
+    padding-top: 56px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
