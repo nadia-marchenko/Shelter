@@ -1,0 +1,80 @@
+footer {
+  background: url(../assets/images/footer-gradient-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  height: 24.3vw;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 29px;
+  padding-bottom: 0;
+}
+
+.footer-content img {
+  padding-top: 10px;
+}
+
+.footer-content h2 {
+  width: 70%;
+  color: $color-additional;
+}
+
+.footer-content div {
+  display: flex;
+  align-items: center;
+}
+
+.email-info {
+  padding-top: 13px;
+}
+
+.phone-info {
+  margin-top: 43px;
+}
+
+.location-info {
+  margin-top: 31px;
+}
+
+.footer-content span:last-child {
+  width: 57%;
+  line-height: 1.2;
+}
+
+.footer-content span {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: $color-primary;
+  font-size: 2rem;
+  letter-spacing: 1.1px;
+}
+
+.footer-contacts {
+  flex-basis: 42.4%;
+}
+
+.icon {
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.email-icon {
+  background: url(../assets/images/mail.png);
+  width: 40px;
+  height: 26px;
+}
+
+.phone-icon {
+  background: url(../assets/images/icon-phone.svg);
+  width: 40px;
+  height: 32px;
+}
+
+.location-icon {
+  background: url(../assets/images/pin.png);
+  width: 22px;
+  height: 32px;
+}
