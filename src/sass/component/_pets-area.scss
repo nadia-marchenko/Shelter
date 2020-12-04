@@ -26,6 +26,12 @@
   top: 13.2vw;
 }
 
+.arrow:hover {
+  background-color: $color-primary-light;
+  border-color: $color-primary-light;
+  cursor: pointer;
+}
+
 .right-arrow {
   margin-left: 8px;
 }
@@ -41,6 +47,11 @@
   margin: 0 45px;
   text-align: center;
   background-color: $color-card-light;
+}
+
+.pets-card:hover {
+  cursor: pointer;
+  background-color: $color-additional;
 }
 
 .pets-card p {

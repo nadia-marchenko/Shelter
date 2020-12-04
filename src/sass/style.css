@@ -163,6 +163,12 @@ header {
   top: 13.2vw;
 }
 
+.arrow:hover {
+  background-color: #FDDCC4;
+  border-color: #FDDCC4;
+  cursor: pointer;
+}
+
 .right-arrow {
   margin-left: 8px;
 }
@@ -178,6 +184,11 @@ header {
   margin: 0 45px;
   text-align: center;
   background-color: #FAFAFA;
+}
+
+.pets-card:hover {
+  cursor: pointer;
+  background-color: #FFFFFF;
 }
 
 .pets-card p {
@@ -292,6 +303,11 @@ header {
   margin-bottom: 20px;
 }
 
+.donation-card-data:hover {
+  cursor: pointer;
+  background-color: #FDDCC4;
+}
+
 .donation-icon {
   display: inline-block;
   background: url(../assets/images/credit-card.svg);
@@ -304,6 +320,11 @@ header {
   font-size: 2rem;
   padding-left: 14px;
   letter-spacing: 1.2px;
+}
+
+.card-number a {
+  text-decoration: none;
+  color: #545454;
 }
 
 .donation-text > p:last-child {
@@ -333,6 +354,15 @@ footer {
   justify-content: space-between;
   padding-top: 29px;
   padding-bottom: 0;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #F1CDB3;
+}
+
+.footer-content a:hover {
+  color: #FDDCC4;
 }
 
 .footer-content img {

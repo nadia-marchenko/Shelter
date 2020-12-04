@@ -13,6 +13,15 @@ footer {
   padding-bottom: 0;
 }
 
+.footer-content a {
+  text-decoration: none;
+  color: $color-primary;
+}
+
+.footer-content a:hover {
+  color: $color-primary-light;
+}
+
 .footer-content img {
   padding-top: 10px;
 }
